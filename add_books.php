@@ -15,7 +15,6 @@ require_once('db_users.php');
 $query = "INSERT INTO books(`name`, `author`, `about`, `year`, `photo`, `add_date`, `file`, `is_active`)
 VALUES ('$name','$author', '$about', '$year', '$photo', '$add_date', '$file', '$is_active')";
 
-echo $query;
 
 $result = mysqli_query($conn, $query);
 if($result){
