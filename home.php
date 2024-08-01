@@ -16,7 +16,11 @@ require_once('partials/main.php');
 ?>
 </body>
 </html><?php
-
+ 
 require_once('partials/footer.php');
 
 ?>
+<!-- 
+<script>
+    alert("Hello");
+</script> -->
