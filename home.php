@@ -17,6 +17,8 @@ require_once('partials/main.php');
 </body>
 </html><?php
 
+echo "Commit"; //
+
 require_once('partials/footer.php');
 
 ?>
